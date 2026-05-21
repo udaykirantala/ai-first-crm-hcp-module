@@ -15,7 +15,12 @@ def extract_interaction(text: str):
 
     Return ONLY valid JSON.
 
-    Keep relative dates exactly as written
+    STRICT RULES:
+
+    - sentiment must ONLY be:
+    positive, neutral, or negative
+
+    -Keep relative dates exactly as written
     like today, tomorrow, next Monday, etc.
     Do not convert them into actual dates.
 
