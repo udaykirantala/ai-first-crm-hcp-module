@@ -1,0 +1,120 @@
+.form-container {
+    flex: 2;
+    height: 98%;
+    overflow-y: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    background-color: #FFF;
+    padding: 10px 25px;
+}
+
+.form-grid {
+    color: #374151;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.label-grid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.input-filed {
+    width: 450px;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+}
+
+.input-filed-dropdown {
+    width: 450px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+}
+
+.date-time {
+    margin-top: 40px;
+}
+
+.input-icon-wrapper {
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+}
+
+.input-filed-date-time {
+    width: 429px;
+    height: 35px;
+    border: none;
+}
+
+.form-grid-attendees {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 40px;
+}
+
+.attendees-inputfiled {
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+}
+
+.textarea-continer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 8px;
+}
+
+.textarea-filed {
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+}
+.summarize-heding{
+    font-size: 16px;
+    color: #0A84FF;
+}
+.matrial-text{
+    font-size: 18px;
+    font-weight:500;
+}
+.matrial-filed{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 2px solid #E5E7EB;
+    padding: 10px 5px;
+}
+.sentiment-section{
+    margin-top: 30px;
+}
+.sentiment-text{
+    font-size: 18px;
+    font-weight: 500;
+}
+.radio-group{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 10px;
+}
+.radio-button{
+    padding-right: 20px;
+}
+.save-btn{
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.btn-text{
+    font-family: 25px;
+    font-weight: 600;
+}

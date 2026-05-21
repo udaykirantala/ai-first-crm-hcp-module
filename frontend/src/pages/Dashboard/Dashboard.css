@@ -1,0 +1,10 @@
+.dashboard-container {
+    display: flex;
+    overflow: hidden;
+    height: 97.8vh;
+}
+
+.left-panel {
+    width: 68%;
+    padding: 20px;
+}
